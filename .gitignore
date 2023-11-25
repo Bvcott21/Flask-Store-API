@@ -5,6 +5,9 @@ Dockerfile
 *.dockerignore
 docker-compose.override.yml
 
+# Exclude virtual environment
+venv/
+
 # Ignore Docker build context
 __pycache__/
 *.pyc
