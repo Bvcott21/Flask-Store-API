@@ -1,0 +1,22 @@
+# Ignore Docker containers and related files
+docker-compose.yml
+Dockerfile
+.dockerignore
+*.dockerignore
+docker-compose.override.yml
+
+# Ignore Docker build context
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Docker container data
+*.db
+*.sqlite3
+*.log
+
+# Ignore Docker container volumes and network configurations
+docker-compose.override.yml
+.docker/
+.docker-compose/
