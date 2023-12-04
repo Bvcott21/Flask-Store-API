@@ -4,3 +4,4 @@ flask-dotenv
 sqlalchemy
 flask-sqlalchemy
 flask-jwt-extended
+passlib
